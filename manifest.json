@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Social Redirector",
+  "name": "Indistractable",
   "version": "1.0",
-  "description": "Redirects from social media to a default or user-specified YouTube link.",
+  "description": "Redirects from social media/explicit sites to a default or user-specified link.",
   "permissions": [
     "storage",
     "webNavigation"
