@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Social Redirector",
+  "version": "1.0",
+  "description": "Redirects from social media to a default or user-specified YouTube link.",
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
