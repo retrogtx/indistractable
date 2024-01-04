@@ -3,6 +3,8 @@ Browser extension that redirects you to a motivational Andrew Tate video wheneve
 You can update the default redirected youtube video, or place any other link you like by clicking the extension. 
 Whatever works for you.
 
+This might look very wishy washy, that you can quit addictions with a browser extension to take back control of your life, but this is my way to giving back. Plus, some friction compiled with Andrew's message will go a long way, atleast that's what James Clear said about adding friction.
+
 # How to set up?
 - Install the repo by clicking on code & downloading the zip file
 - Unzip the folder & save it in a place where it is accessible
