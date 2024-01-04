@@ -12,7 +12,7 @@ chrome.runtime.onInstalled.addListener(function () {
 chrome.webNavigation.onBeforeNavigate.addListener(function (details) {
   chrome.storage.sync.get(['youtubeLink'], function (result) {
     var userYouTubeLink = result.youtubeLink;
-    var socialMediaDomains = ['facebook.com', 'twitter.com', 'instagram.com'];
+    var socialMediaDomains = ['facebook.com', 'twitter.com', 'instagram.com','reddit.com','pornhub.com'];
 
     if (socialMediaDomains.some(domain => details.url.includes(domain))) {
       chrome.tabs.update(details.tabId, { url: userYouTubeLink });
